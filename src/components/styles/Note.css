@@ -1,0 +1,41 @@
+* {
+    text-align: left;
+}
+.note-wrapper {
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: all .3s;
+    margin: 10px 0;
+}
+.note-wrapper:hover {
+    background: rgba(0,0,0,0.01);
+    box-shadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
+.note-items-wrapper {
+    display: flex;
+    border-radius: 25px;
+}
+
+.note-heading {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.note-text {
+    display: block;
+    padding: 20px 40px 20px 0;
+}
+
+.note-tag {
+    color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: fit-content;
+    padding: 3px 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,22 @@
+.app {
+  padding: 0 15px;
+}
+.plus-btn {
+  background: red;
+  color: white;
+  position: absolute;
+  border-radius: 5%;
+  right: 50px;
+  bottom: 100px;
+  line-height: 0.8;
+  cursor: pointer;
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 38px;
+  transition: all .5s;
+}
+.plus-btn:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

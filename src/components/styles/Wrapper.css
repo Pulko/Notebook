@@ -1,0 +1,13 @@
+.notes-wrapper {
+    height: 600px;
+    overflow: auto;
+}
+
+.search {
+    border: none;
+    display: flex;
+    margin: 10px 0;
+    outline: none !important;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
